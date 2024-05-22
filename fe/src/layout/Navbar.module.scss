@@ -1,0 +1,27 @@
+.navbar_container{
+    display: flex;
+    width: 100%;
+    min-height: 72px;
+    background-color: white;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+    .navbar_image_div{
+        max-width: 300px;
+        width: 100%;
+    }
+    .navbar_links{
+        display: flex;
+        gap: 20px;
+        max-width: 600px;
+        width: 100%;
+
+
+        a{
+            color: black;
+            font-weight: 700;
+        }
+    }
+}

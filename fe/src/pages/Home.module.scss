@@ -1,0 +1,374 @@
+.happening_container{
+
+    max-width: 1500px;
+    background-color: rgb(255, 0, 136);
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .qiz_oglan_container{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        height: 700px;
+       
+
+        .qiz_oglan_image{
+            max-width: 600px;
+            width: 100%;
+            height: 500px;
+        }
+    }
+
+    .flat_container{
+        max-width: 600px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: start;
+        justify-content: center;
+        height: 700px;
+
+        .flat_and_yetmis_bes{
+            display: flex;
+            align-items: baseline;
+            gap: 7px;
+        }
+
+        .flat{
+            color: white;
+            font-size: 20px;
+        }
+        .yetmis_bes_faiz{
+            color: white;
+            font-size: 40px;
+        }
+
+        .happning_season{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 60px;
+            max-width: 500px;
+            min-height: 200px;
+            width: 100%;
+        }
+        .purcase_btn{
+            max-width:180px;
+            width: 100%;
+            height: 40px;
+            border-radius: 20px;
+            background-color: white;
+            font-size: 14px;
+            font-weight: 700;
+
+        }
+    }
+}
+
+.categories_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .categories_title_div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 100px;
+
+        .shop_title{
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .extremely{
+            font-size: 13px;
+            color: rgb(137, 137, 137);
+        }
+    }
+
+    .categories_cards_container{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        .left_container{
+            display: flex;
+            flex-direction: column;
+
+            .up__pictures{
+
+                img{
+                    max-width: 500px;
+                    object-fit: contain;
+                }
+                
+            }
+        }
+
+        .down_two_pictures{
+            margin: auto;
+            display: flex;
+            max-width: 500px;
+            width: 100%;
+            min-height: 240px;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+
+            .down_two_pictures_left{
+                max-width: 300px;
+                width: 100%;
+                height: 200px;
+            }
+
+            .down_two_pictures_rigth{
+                max-width: 300px;
+                width: 100%;
+                height: 200px;
+            }
+        }
+
+        .rigth_container{
+           img{
+            max-width: 300px;
+            width: 100%;
+            height: 420px;
+           }
+        }
+
+    }
+}
+
+.products_men_container{
+    width: 100%;
+    background-image: url("	https://preview.colorlib.com/theme/shop/img/men-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+
+    .products_men_overlay{
+        background-color: rgb(255, 0, 136);
+        min-height: 500px;
+        z-index: 1;
+
+       
+
+      
+    }
+}
+
+
+.realized_title_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+
+    .realized_title{
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+    }
+
+    .friendly{
+        font-size: 13px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.realized_women_title{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(7, 7, 7);
+}
+
+.friendly_women{
+    font-size: 13px;
+    color: rgb(149, 149, 149);
+
+}
+.api_cards_container{
+    width: 100%;
+    max-width: 900px;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    align-items: start;
+    gap: 20px;
+
+ 
+
+    .basket_btn{
+        max-width: 100px;
+        width: 100%;
+        height: 30px;
+        border-radius: 10px;
+        background-color: rgb(21, 0, 255);
+        color: white;
+    }
+
+    .detail_btn{
+        max-width: 100px;
+        width: 100%;
+        height: 30px;
+        border-radius: 10px;
+        background-color: red;
+    }
+    .detail_btn a{
+        max-width: 100px;
+        width: 100%;
+        height: 30px;
+        border-radius: 10px;
+        background-color: red;
+        color: white;
+
+    }
+    .wishList_basket_btns{
+        display: flex;
+        gap: 10px;
+    }
+}
+
+.products_cards_container{
+    width: 100%;
+    max-width: 900px;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    gap: 20px;
+
+
+    
+}
+
+.product_card_items{
+
+
+    .card_image{
+        max-width: 200px;
+        width: 100%;
+
+       
+    }
+
+    .card_title{
+        font-size: 15px;
+        color: white;
+        font-weight: 600;
+    }
+
+    .card_price{
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+
+
+    }
+}
+
+.api_card_title{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.api_card_price{
+    font-size: 20px;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+
+}
+
+.realeted_container{
+    max-width: 900px;
+    width: 100%;
+    min-height: 500px;
+    margin: auto;
+
+    .related_cards_container{
+        max-width: 900px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+
+        .related_card_item{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 200px;
+            width: 100%;
+            height: 80px;
+
+            .related_image_div{
+           
+             
+                img{
+                    max-width: 50px;
+                    height: 50px;
+                    width: 100%;
+                }
+            }
+
+            .related_desc{
+                display: flex;
+                flex-direction: column;
+                max-width: 200px;
+                height: 50px;
+                margin-left: 4px;
+
+                .black{
+                    max-width: 200px;
+                    font-size: 13px;
+                    color: rgb(104, 104, 104);
+                }
+            }
+        }
+    }
+
+}
+@media screen and (max-width:600px) {
+    .happening_container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .down_two_pictures{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .up__pictures{
+        max-width: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+   
+}
